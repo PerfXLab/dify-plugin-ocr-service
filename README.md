@@ -21,7 +21,7 @@
 
 插件->安装插件->GitHub
 ![alt text](doc/img/install.png)
-填写git仓库地址：https://github.com/Yyyerk/difyplugin-ocr-service
+填写git仓库地址：https://github.com/PerfXLab/dify-plugin-ocr-service
 
 
 选择相应版本

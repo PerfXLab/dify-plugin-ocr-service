@@ -1,0 +1,40 @@
+version: 0.0.1
+type: plugin
+author: PerfXLab
+name: ocr_tool
+label:
+  en_US: OCR recognition service
+  zh_Hans: OCR识别服务
+  pt_BR: OCR recognition service
+description:
+  en_US: an OCR recognition service tool that supports PDF, image, and other files
+  zh_Hans: 一种支持PDF、图片等文件的OCR识别服务工具
+  pt_BR: an OCR recognition service tool that supports PDF, image, and other files
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  tools:
+    - provider/perfxlab.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-03-27T00:47:11.2855428+08:00
+privacy: PRIVACY.md
+verified: true

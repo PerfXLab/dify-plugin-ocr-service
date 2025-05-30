@@ -1,0 +1,5 @@
+--index-url https://pypi.tuna.tsinghua.edu.cn/simple
+dify_plugin==0.0.1b76 
+docx==0.2.4
+python_docx==1.1.2
+Requests==2.32.3

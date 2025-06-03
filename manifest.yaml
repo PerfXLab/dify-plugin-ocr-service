@@ -1,6 +1,6 @@
 version: 0.0.1
 type: plugin
-author: PerfXLab
+author: perfxlab
 name: ocr_tool
 label:
   en_US: OCR recognition service
